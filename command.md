@@ -12,6 +12,8 @@
 8. **type python or python manage.py shell to prompt the interactive shell and Ctrl + K to quit from the python shell**
 9. **pip freeze > requirements.txt** : _to log the packages on the project_
 10. **pip install -r requirements.txt** : _To install all packages in the txt file_
+11. **Django Treebrad and Django mptt**: \_Used for creating deeply nested categories. _to install \_pip install django-mptt_
+12. **Django API Documentation with swagger and drf-spectacular**: *install df-spectacular*
 
 # Packages Installed
 
@@ -19,3 +21,6 @@ django
 python-dotenv 0.21.0
 djangorestframework==3.14.0
 pytest==7.2.0
+DJANGO treebeard
+Django mptt
+drf-spectacular
