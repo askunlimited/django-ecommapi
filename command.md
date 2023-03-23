@@ -14,6 +14,10 @@
 10. **pip install -r requirements.txt** : _To install all packages in the txt file_
 11. **Django Treebrad and Django mptt**: \_Used for creating deeply nested categories. _to install \_pip install django-mptt_
 12. **Django API Documentation with swagger and drf-spectacular**: *install df-spectacular*
+13. **manage.py spectacular --file schema.yml**: *To create the documentation schema for the applications models that will be used to generate the documentation*
+14. **To identify areas of testing use coverage "pip install coverage".** *run coverage using "coverage run -m pytest" and "coverage run html" to generate html file*
+15. **Alternatively we can "pip install pytest-cov" and run "pytest-cov"**
+16. **Usung Factory Boy for Testing: Install pytest-factoryboy and create factories and contest files in the test folder**
 
 # Packages Installed
 
@@ -24,3 +28,6 @@ pytest==7.2.0
 DJANGO treebeard
 Django mptt
 drf-spectacular
+coverage
+pytest-cov
+pytest-factoryboy
